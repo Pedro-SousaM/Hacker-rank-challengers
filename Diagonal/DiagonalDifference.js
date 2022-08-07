@@ -6,7 +6,6 @@ function diagonalDifference(arr) {
          X1numbers += arr[x][x] 
          X2numbers += arr[x][l-x] 
     } 
-    console.log(X1numbers, X2numbers)
     const check = [X1numbers, X2numbers] 
     function compare(a,b){
         if(a>b)return 1; 
